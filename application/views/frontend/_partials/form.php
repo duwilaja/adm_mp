@@ -14,11 +14,11 @@
                                 <!--tab -->
                                 <div id="tab-1" class="tab-content first-tab">
                                     <div class="custom-form">
-                                        <form method="post"  name="registerform">
-                                            <label>Username or Email Address <span>*</span> </label>
-                                            <input name="email" type="text"   onClick="this.select()" value="">
+                                        <form method="post" action="javascript:void(0);" class="main-register-form" id="form_login">
+                                            <label>Alamat Email <span>*</span> </label>
+                                            <input name="email" type="text" value="">
                                             <label >Password <span>*</span> </label>
-                                            <input name="password" type="password"   onClick="this.select()" value="" >
+                                            <input name="password" type="password"  value="" >
                                             <button type="submit"  class="btn float-btn color2-bg"> Log In <i class="fas fa-caret-right"></i></button>
                                             <div class="clearfix"></div>
                                             <div class="filter-tags">
@@ -36,14 +36,14 @@
                                 <div class="tab">
                                     <div id="tab-2" class="tab-content">
                                         <div class="custom-form">
-                                            <form method="post"   name="registerform" class="main-register-form" id="main-register-form2">
-                                                <label >Full Name <span>*</span> </label>
-                                                <input name="name" type="text"   onClick="this.select()" value="">
-                                                <label>Email Address <span>*</span></label>
-                                                <input name="email" type="text"  onClick="this.select()" value="">
+                                            <form method="post" action="javascript:void(0);" class="main-register-form" id="form_register">
+                                                <label >Nama Lengkap <span>*</span> </label>
+                                                <input name="nama" type="text" value="">
+                                                <label>Alamat Email <span>*</span></label>
+                                                <input name="email" type="text" value="">
                                                 <label >Password <span>*</span></label>
-                                                <input name="password" type="password"   onClick="this.select()" value="" >
-                                                <div class="filter-tags ft-list">
+                                                <input name="password" type="password"  value="">
+                                                <!-- <div class="filter-tags ft-list">
                                                     <input id="check-a2" type="checkbox" name="check">
                                                     <label for="check-a2">I agree to the <a href="#">Privacy Policy</a></label>
                                                 </div>
@@ -51,9 +51,9 @@
                                                 <div class="filter-tags ft-list">
                                                     <input id="check-a" type="checkbox" name="check">
                                                     <label for="check-a">I agree to the <a href="#">Terms and Conditions</a></label>
-                                                </div>
+                                                </div> -->
                                                 <div class="clearfix"></div>
-                                                <button type="submit"     class="btn float-btn color2-bg"> Register  <i class="fas fa-caret-right"></i></button>
+                                                <button type="submit" class="btn float-btn color2-bg">Daftar<i class="fas fa-caret-right"></i></button>
                                             </form>
                                         </div>
                                     </div>
@@ -61,11 +61,11 @@
                                 <!--tab end -->
                             </div>
                             <!--tabs end -->
-                            <div class="log-separator fl-wrap"><span>or</span></div>
+                            <!-- <div class="log-separator fl-wrap"><span>or</span></div>
                             <div class="soc-log fl-wrap">
                                 <p>For faster login or register use your social account.</p>
                                 <a href="#" class="facebook-log"> Facebook</a>
-                            </div>
+                            </div> -->
                             <div class="wave-bg">
                                 <div class='wave -one'></div>
                                 <div class='wave -two'></div>

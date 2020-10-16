@@ -11,5 +11,7 @@
  <link type="text/css" rel="stylesheet" href="<?=base_url('template2/')?>css/style.css">
  <link type="text/css" rel="stylesheet" href="<?=base_url('template2/')?>css/color.css">
  <link type="text/css" rel="stylesheet" href="<?=base_url('template2/')?>custom/css/all.css">
+ <link type="text/css" rel="stylesheet" href="<?=base_url('template2/')?>css/dashboard-style.css">
+ <link type="text/css" rel="stylesheet" href="<?=base_url('template2/')?>css/shop.css">
  <!--=============== favicons ===============-->
  <link rel="shortcut icon" href="<?=base_url('template2/')?>images/favicon.ico">

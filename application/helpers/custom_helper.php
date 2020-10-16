@@ -128,3 +128,11 @@ if (!function_exists('srlktpde')) {
     }
 	}
 }
+
+if (!function_exists('hpdtk')) {
+	function hpdtk($time='')
+	{
+    $x = explode(':',$time);
+    return $x[0].':'.$x[1];
+  }
+}
